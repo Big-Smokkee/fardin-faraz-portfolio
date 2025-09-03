@@ -1,46 +1,57 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Space Grotesk';
     font-size: 1.1rem;
+    
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2%;
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+body{
     background-color: black;
+    /* width: 100%; */
+    color: gray;
+    width: 100vw;
+    height: 100vh;
 }
-.brand{
-    color: tomato;
-    transition: transform 400ms ease;
+main{
+    background-color: rgba(128, 128, 128, 0.439);
 }
-.brand:hover{
-    transform: translateX(10px);
+.container section{
+    width: 75%;
 }
-nav .link-list ul{
+main{
     display: flex;
-    gap: 4em;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8% 10%;
 }
-nav .link-list ul li a{
-    text-decoration: none;
-    color: aliceblue;
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    
+    /* margin: 0px 150px; */
 }
-nav .link-list ul li a:hover{
+.container h1{
+    font-size: 3.5rem;
+    color: antiquewhite;
+}
+.container h1 span{
     color: tomato;
-    transition: color 500ms ease;  
+    font-size: 3.5rem;
 }
-.con-button{
-    padding: 8px 2rem 12px 2rem;
-    color: aliceblue;
-    font-weight: bold;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: tomato;
+main .container section p{
+    text-align: justify;
+    color: antiquewhite;
 }
-.con-button:hover{
-    box-shadow: 0px 3.5px 0px 0px #9c3d2a;
-    /* box-shadow: inset 0px -4px 0px 0px #9c3d2a; */
-    transition: box-shadow 500ms ease;
+.img-wrapper{
+    width: 50%;
+    border: 3px solid tomato;
+    border-radius: 10px;
 }
