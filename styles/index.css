@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk';
+    font-size: 1.1rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    background-color: black;
+}
+.brand{
+    color: tomato;
+    transition: transform 400ms ease;
+}
+.brand:hover{
+    transform: translateX(10px);
+}
+nav .link-list ul{
+    display: flex;
+    gap: 4em;
+    list-style: none;
+}
+nav .link-list ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav .link-list ul li a:hover{
+    color: tomato;
+    transition: color 500ms ease;  
+}
+.con-button{
+    padding: 8px 2rem 12px 2rem;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: tomato;
+}
+.con-button:hover{
+    box-shadow: 0px 3.5px 0px 0px #9c3d2a;
+    /* box-shadow: inset 0px -4px 0px 0px #9c3d2a; */
+    transition: box-shadow 500ms ease;
+}
