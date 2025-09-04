@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 1.1rem;
-    color: antiquewhite;
+    color: #8C1007;
     font-family: 'Space Grotesk';
 }
 h1{
@@ -19,7 +19,7 @@ main{
     padding: 8% 10%;
 }
 body{
-    background-color: black;
+    background-color: #F5BABB;
     /* width: 100%; */
     color: gray;
     width: 100vw;

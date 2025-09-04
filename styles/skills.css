@@ -14,7 +14,7 @@ main{
 }
 .card:hover{
     font-size: 1.5em;
-    background-color: rgba(255, 132, 71, 0.533);
+    background-color: #FFF5F2(255, 132, 71, 0.533);
     box-shadow: 10px 10px 5px rgba(238, 223, 204, 0.742);
 }
 .card img{

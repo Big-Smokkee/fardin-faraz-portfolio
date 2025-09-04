@@ -3,10 +3,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 1%;
-    background-color: black;
+    background-color: #FFF5F2;
 }
 .brand{
-    color: tomato;
+    color: #660B05;
     transition: transform 400ms ease;
 }
 .brand:hover{
@@ -19,10 +19,11 @@ nav .link-list ul{
 }
 nav .link-list ul li a{
     text-decoration: none;
-    color: antiquewhite;
+    font-weight: 500;
+    color: #8C1007;
 }
 nav .link-list ul li a:hover{
-    color: tomato;
+    color: #8f6d6e;
     transition: color 500ms ease;  
 }
 .con-button{
@@ -32,7 +33,7 @@ nav .link-list ul li a:hover{
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;   
-    background-color: tomato;
+    background-color: #660B05;
 }
 .con-button:hover{
     box-shadow: 0px 3.5px 0px 0px #9c3d2a;
@@ -44,8 +45,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 1%;
-    background-color: black;
+    background-color: #FFF5F2;
     border-top: 1px solid rgba(128, 128, 128, 0.676);
     border-radius: 10px;
-    color: antiquewhite;
 }
