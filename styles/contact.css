@@ -21,10 +21,10 @@ input::placeholder
 #form-data textarea{
     color: #8C1007;
     background-color: #FFF5F2;
-    max-width: 500px;
+    /* max-width: 500px; */
     width: 80%;
     border-radius: 5px;
-padding: 4px 10px;
+    padding: 4px 10px;
 
 }
 textarea::placeholder{
